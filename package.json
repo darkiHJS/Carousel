@@ -1,0 +1,25 @@
+{
+  "name": "carousel",
+  "version": "1.0.0",
+  "description": "a carousel component  implementation.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darkiHJS/Carousel.git"
+  },
+  "author": "darki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darkiHJS/Carousel/issues"
+  },
+  "homepage": "https://github.com/darkiHJS/Carousel#readme",
+  "dependencies": {
+    "webpack": "^4.44.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
