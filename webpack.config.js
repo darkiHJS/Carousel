@@ -6,6 +6,11 @@ module.exports = {
     filename: 'bundle.js'
   },
   mode: 'production',
+  devServer: {
+    contentBase: path.join(__dirname, "dist"),
+    compress: true,
+    port: 8080
+  },
   module: {
     rules: [
       {
@@ -25,5 +30,8 @@ module.exports = {
         }
       }
     ]
+  },
+  optimization: {
+    minimize: false
   }
 }

@@ -1,2 +1,7 @@
 # Carousel
-a carousel component  implementation.
+#### 一个简单的轮播组件
+- [x] 无限轮播
+- [x] 轮播动画
+- [x] 鼠标拖拽
+- [ ] 实现Jsx语法
+- [ ] Ts重构
